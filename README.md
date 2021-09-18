@@ -15,7 +15,9 @@ This Assignment consists of following tasks:-
    Create proper unit tests to ensure all functions are working
 
 3. WEB SCRAPING (optional for designers)
+<br>
   a. Create a mysql database with table “user”. The only condition for the table is that it should have a column “username” and rows with “username”(facebook usernames) . Simply you should have a table with the given usernames.
+ <br>
   b. Create a decorator for functions with a parameter username which checks if the particular username exists in the above defined table, runs the function if it exists, throws an exception otherwise.
   c. Create a class “Person” with a constructor that instantiates its object with the mandatory argument “name” and the optional arguments “work”(list) and “city”(string). The class should also have a function show() which prints “My name is {self.name} and my current city is {self.city}”. 
   Note: If the parameters work is not passed, the object parameter work must not be assigned (i.e. obj.work should throw an exception) and if the parameter city is not passed then self.city should be stored as “Roorkee”.
